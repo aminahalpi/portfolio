@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section {
+    @apply py-16 px-4 md:px-8 lg:px-16 bg-secondary text-textLight;
+  }
+  .btn {
+    @apply px-6 py-3 bg-primary text-textLight rounded-md hover:bg-accent transition duration-300;
+  }
+  .card {
+    @apply bg-gray-800 p-6 rounded-lg shadow-md hover:shadow-xl transition text-textLight;
+  }
+}
