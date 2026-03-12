@@ -22,3 +22,12 @@ Jika Anda ingin menjalankan atau melihat kodingan proyek ini di laptop Anda send
 1. Clone repository ini:
    ```bash
    git clone [https://github.com/aminahalpi/portfolio.git](https://github.com/aminahalpi/portfolio.git)
+2. Masuk ke folder proyek:
+   Bash
+   ```cd portfolio
+3. Install semua dependencies:
+  Bash
+  ```npm install
+4. Jalankan development server:
+  Bash
+  ```npm run dev
