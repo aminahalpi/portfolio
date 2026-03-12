@@ -1,16 +1,24 @@
-# React + Vite
+# 🌟 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamat datang di *repository* website portofolio pribadi saya! Website ini dibangun untuk menampilkan perjalanan, keahlian, dan proyek-proyek yang telah saya kerjakan sebagai **Frontend Developer** dan **UI/UX Designer**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Lihat Website Portofolio Saya](https://portfolio-pearl-two-gz3i9zl99s.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fitur Utama
+* **Desain Modern & Responsif:** Antarmuka UI/UX yang ramah pengguna, terstruktur, dan menyesuaikan dengan berbagai ukuran layar (Mobile, Tablet, Desktop).
+* **Animasi Halus:** Menggunakan Framer Motion untuk transisi halaman dan interaksi elemen yang elegan.
+* **Showcase Proyek:** Menampilkan detail proyek kolaborasi dan mandiri secara interaktif (seperti GiCare UAD, Hit News, Adisty UAD).
+* **Kontak Interaktif:** Kemudahan akses untuk terhubung langsung via Email dan WhatsApp.
 
-## React Compiler
+## 🛠️ Teknologi yang Digunakan
+* **Framework:** React.js + Vite
+* **Styling:** Tailwind CSS
+* **Icons & Animations:** Lucide React, Framer Motion
+* **Deployment:** Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Cara Menjalankan Secara Lokal (Local Setup)
+Jika Anda ingin menjalankan atau melihat kodingan proyek ini di laptop Anda sendiri, silakan ikuti langkah-langkah berikut:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone repository ini:
+   ```bash
+   git clone [https://github.com/aminahalpi/portfolio.git](https://github.com/aminahalpi/portfolio.git)
