@@ -24,11 +24,16 @@ const Navbar = () => {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden flex flex-col space-y-4 px-4 py-4 bg-secondary text-textLight">
-          <a href="#hero" onClick={() => setIsOpen(false)} className="hover:text-accent">Home</a>
-          // Tambah link lain
-        </div>
-      )}
+  <div className="md:hidden flex flex-col space-y-4 px-4 py-4 bg-secondary text-textLight">
+    <a href="#hero" onClick={() => setIsOpen(false)} className="hover:text-accent">Home</a>
+    <a href="#about" onClick={() => setIsOpen(false)} className="hover:text-accent">About</a>
+    <a href="#education" onClick={() => setIsOpen(false)} className="hover:text-accent">Education</a>
+    <a href="#skills" onClick={() => setIsOpen(false)} className="hover:text-accent">Skills</a>
+    <a href="#projects" onClick={() => setIsOpen(false)} className="hover:text-accent">Projects</a>
+    <a href="#experience" onClick={() => setIsOpen(false)} className="hover:text-accent">Experience</a>
+    <a href="#contact" onClick={() => setIsOpen(false)} className="hover:text-accent">Contact</a>
+  </div>
+)}
     </nav>
   );
 };

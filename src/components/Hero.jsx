@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { aboutText } from '../data/about';   // nanti kita pakai ini di About
+import { aboutText } from '../data/about';   
 import profileImg from '../assets/profile.jpg';
 
 const Hero = () => {
@@ -41,17 +41,16 @@ const Hero = () => {
           </h1>
           
           <p className="text-2xl md:text-3xl text-[#94A3B8] mb-6">
-            {/* GANTI DI SINI sesuai pilihanmu */}
-            Frontend Developer & UI/UX Designer
+            Frontend Developer with UI/UX Understanding
           </p>
 
           <p className="text-lg text-[#64748B] mb-8 max-w-md">
-            Mahasiswa Sistem Informasi UAD yang passionate membangun antarmuka digital yang bersih, responsif, dan user-friendly.
+            Mengembangkan aplikasi web interaktif dan responsif menggunakan React dan Tailwind CSS, dengan pendekatan terstruktur dan berorientasi pada pengalaman pengguna.
           </p>
 
           {/* Currently building */}
           <p className="text-sm text-[#64748B] mb-8 italic">
-            Currently building my portfolio with React + Node.js
+            Continuously improving through personal and collaborative projects.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

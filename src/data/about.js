@@ -1,5 +1,5 @@
-export const aboutText = 
-  "Mahasiswa Sistem Informasi di Universitas Ahmad Dahlan dengan minat kuat pada Frontend Development dan UI/UX Design. " +
-  "Berpengalaman membangun aplikasi web responsif menggunakan React, Tailwind CSS, dan Firebase, serta merancang prototype interaktif yang user-friendly dengan Figma. " +
-  "Saat ini sedang mengembangkan website portfolio pribadi ini menggunakan React dan Node.js. " +
-  "Berkomitmen menciptakan antarmuka digital yang bersih, responsif, dan benar-benar berfokus pada pengalaman pengguna.";
+export const aboutText =
+  "Frontend Developer yang sedang menempuh studi Sistem Informasi di Universitas Ahmad Dahlan, dengan pemahaman UI/UX Design sebagai fondasi dalam membangun antarmuka yang efektif. " +
+  "Berpengalaman mengembangkan aplikasi web responsif menggunakan React, JavaScript, dan Tailwind CSS serta mengintegrasikan Firebase untuk pengelolaan data. " +
+  "Fokus pada pengembangan antarmuka yang bersih, modular, dan berorientasi pada pengalaman pengguna. " +
+  "Terus mengasah kemampuan melalui proyek mandiri dan kolaborasi tim.";

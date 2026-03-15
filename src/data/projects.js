@@ -1,51 +1,74 @@
-// Perhatikan baris ini, HARUS ADA kata "export" dan "projects"
+import gicareHome from '../assets/images/gicare/home.png'
+import gicareDokter from '../assets/images/gicare/dokter.png'
+import gicareLayanan from '../assets/images/gicare/layanan.png'
+import gicareReservasi from '../assets/images/gicare/reservasi.png'
+import hitnewsImg from '../assets/images/hitnews.png'
+import adistyImg from '../assets/images/adisty.png'
+import manajemenImg from '../assets/images/manajemen.png'
+import posterAdisty1 from '../assets/images/poster/adisty1.png'
+import posterAdisty2 from '../assets/images/poster/adisty2.png'
+import posterHitnews from '../assets/images/poster/hitnews.png'
+import posterManajamen1 from '../assets/images/poster/manajamen1.png'
+import portfolioImg from '../assets/images/portfolio.png'
+
 export const projects = [
   {
     title: 'GiCare UAD – Web Reservasi Klinik Mahasiswa',
     role: 'Full Frontend Developer',
-    description: 'Membangun aplikasi web reservasi klinik gigi berbasis React yang memungkinkan mahasiswa melakukan pendaftaran dan pengelolaan jadwal kunjungan secara mandiri. Aplikasi mencakup sistem reservasi lengkap (CRUD), halaman informasi layanan, daftar dokter beserta jadwal praktik, dan integrasi database menggunakan Firebase.',
-    tech: ['React', 'Tailwind CSS', 'JavaScript', 'Firebase', 'React Router'],
+    description: 'Mengembangkan aplikasi web reservasi klinik gigi berbasis React yang memungkinkan mahasiswa melakukan pendaftaran dan pengelolaan jadwal secara mandiri. Fitur meliputi sistem reservasi (CRUD), informasi layanan, jadwal dokter, dan integrasi Firebase sebagai database.',
+    tech: ['React', 'Tailwind CSS', 'JavaScript', 'Firebase'],
     github: 'https://github.com/aminahalpi/gicare-uad-app',
-    image: '/assets/images/gicare.jpg',
+    images: [
+      gicareHome,
+      gicareDokter,
+      gicareLayanan,
+      gicareReservasi
+    ],
   },
   {
     title: 'Hit News – Aplikasi Berita Berbasis Flutter',
     role: 'UI/UX Designer (Wireframe & Prototype)',
-    description: 'Merancang wireframe dan prototype aplikasi berita berbasis Flutter yang menyajikan berita terkini. Desain difokuskan pada antarmuka yang bersih, ringan, dan mudah digunakan. Prototype mencakup fitur login, notifikasi, pencarian berita, bookmark, dark mode, serta halaman akun.',
+    description: 'Merancang wireframe dan prototype aplikasi berita berbasis Flutter dengan fokus pada user flow yang terstruktur dan antarmuka yang bersih. Prototype mencakup fitur login, pencarian berita, bookmark, notifikasi, dark mode, serta halaman akun dan pengaturan.',
     tech: ['Figma', 'Flutter'],
     github: 'https://github.com/FaishalAbyan/HitNews',
-    prototype: 'https://www.figma.com/proto/scLkUS6oydyg0JmZU95ICi?node-id=0-1&t=VZgRN0O1qGspFb3E-6',
-    image: '/assets/images/hitnews.jpg',
+    prototype: 'https://www.figma.com/proto/scLkUS6oydyg0JmZU95ICi',
+    images: [hitnewsImg],
   },
   {
     title: 'Pengembangan Fitur Aplikasi Adisty UAD',
     role: 'UI/UX Designer',
-    description: 'Berkontribusi dalam penambahan fitur pembayaran baru berbasis NFC pada aplikasi Adisty UAD sebagai bagian dari tim. Merancang ulang user flow dan membuat prototype interaktif di Figma. Hasil proyek dipresentasikan dan dipamerkan di pameran akademik Fipex UAD.',
+    description: 'Berkontribusi dalam perancangan fitur pembayaran berbasis NFC pada aplikasi Adisty UAD dengan merancang ulang user flow dan prototype interaktif di Figma. Proyek dipresentasikan dalam pameran akademik sebagai hasil kolaborasi riset UX.',
     tech: ['Figma'],
-    prototype: 'https://www.figma.com/proto/9bGukHa9CfSKbQpw8pQlQu/Riset-desain-dan-Pengalaman-Pengguna?node-id=125-3&starting-point-node-id=105%3A3&t=3YNilFH6dWcNElfN-1',
-    image: '/assets/images/adisty.jpg',
+    prototype: 'https://www.figma.com/proto/9bGukHa9CfSKbQpw8pQlQu',
+    images: [adistyImg],
   },
   {
     title: 'Website Manajemen Tanda Tangan Proyek',
     role: 'UI/UX Designer & Documentation Support',
-    description: 'Merancang prototype website manajemen tanda tangan proyek untuk mempermudah persetujuan dokumen secara digital. Bertanggung jawab dalam penyusunan dokumentasi sistem dan desain UI/UX. Struktur navigasi dibuat sederhana dengan fokus kemudahan mengelola dan memverifikasi dokumen.',
+    description: 'Merancang prototype website manajemen tanda tangan digital untuk mempermudah proses persetujuan dokumen. Bertanggung jawab pada desain UI/UX serta penyusunan dokumentasi sistem dengan fokus pada navigasi yang sederhana dan efisien.',
     tech: ['Figma'],
-    prototype: 'https://www.figma.com/proto/UyOkdMJzpuB8rGr6SyeWX4/DPSI?node-id=190-787&starting-point-node-id=190%3A787&t=fzuG0kxN7zYdhe0v-1',
-    image: '/assets/images/manajemen.jpg',
+    prototype: 'https://www.figma.com/proto/UyOkdMJzpuB8rGr6SyeWX4',
+    images: [manajemenImg],
   },
   {
     title: 'Desain Poster & Thumbnail Presentasi Proyek',
     role: 'Visual & Layout Designer',
-    description: 'Merancang poster presentasi proyek dalam format cetak untuk menyampaikan konsep sistem dan hasil riset secara visual. Poster dirancang agar informatif, rapi, dan mudah dipahami saat presentasi akademik.',
+    description: 'Mendesain poster presentasi proyek untuk menyampaikan konsep sistem dan hasil riset secara visual. Fokus pada tata letak yang informatif, rapi, dan mudah dipahami dalam konteks presentasi akademik.',
     tech: ['Canva', 'Figma'],
-    otherLink: 'https://drive.google.com/drive/folders/1AjziR04_K83TV4GHwHoNTKvbNeIp_DgP?usp=sharing',
-    image: '/assets/images/poster.jpg',
+    otherLink: 'https://drive.google.com/drive/folders/1AjziR04_K83TV4GHwHoNTKvbNeIp_DgP',
+    images: [
+      posterAdisty1,
+      posterAdisty2,
+      posterHitnews,
+      posterManajamen1
+    ],
   },
   {
     title: 'Website Portfolio Pribadi',
-    role: 'Frontend Developer (In Progress)',
-    description: 'Merancang dan mengembangkan website portfolio pribadi untuk menampilkan seluruh proyek dan kemampuan teknis. Membangun frontend dengan React dan Tailwind CSS. Mengintegrasikan dokumentasi visual dari semua proyek yang pernah dikerjakan sebagai bukti portofolio.',
+    role: 'Frontend Developer',
+    description: 'Mengembangkan website portfolio pribadi untuk menampilkan proyek dan kompetensi teknis. Dibangun menggunakan React dan Tailwind CSS dengan dukungan backend Node.js serta integrasi dokumentasi visual setiap proyek.',
     tech: ['React', 'Tailwind CSS', 'Node.js', 'JavaScript'],
-    image: '/assets/images/portfolio.jpg', 
+    github: 'https://github.com/aminahalpi/portfolio',
+    images: [portfolioImg],
   }
-];
+]
